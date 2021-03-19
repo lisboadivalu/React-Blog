@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return(
             <div>
-                <footer className="h-auto bg-black">
+                <footer className=" flex h-14 bg-black">
                         
                 </footer>
             </div>
