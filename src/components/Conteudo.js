@@ -6,11 +6,7 @@ class Conteudo extends Component{
 
                 <div className=" pt-10 p-5 m-0 h-auto bg-gray-300">
                     <div className=" pl-5 container mx-auto gap-3 gap-y-10 grid grid-cols-3 content-start place-item-auto justify-center">
-<<<<<<< HEAD
                         <div className="max-w-xs rounded overflow-hidden shadow-lg bg-gray-200 object-right object">
-=======
-                        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 object-right object">
->>>>>>> master
                             <img className="w-full" src={ require('../assets/download.jpeg').default } alt="" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
