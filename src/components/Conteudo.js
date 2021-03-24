@@ -5,7 +5,7 @@ class Conteudo extends Component{
         return(
             <div className=" pt-10 p-5 m-0 h-screen bg-gray-300">
                 
-                <div className=" pl-5 container mx-auto gap-3 gap-y-10 grid grid-cols-3 content-start place-item-auto justify-center">
+                <div className=" overflow pb-15 pl-5 container mx-auto gap-3 gap-y-10 grid grid-cols-3 content-start place-item-auto justify-center">
                     
                     <div className="max-w-xs rounded overflow-hidden shadow-lg bg-gray-200 object-right object">
                         <img className="w-full" src={ require('../assets/download.jpeg').default } alt="" />
@@ -16,9 +16,7 @@ class Conteudo extends Component{
                             </p>
                         </div>
                     </div>
-                    
                 </div>
-
             </div>
         );
     }
